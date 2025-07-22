@@ -10,7 +10,15 @@
         "typescript",
         "typescriptreact"
     ],
+    "stylelint.enable": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": "never"
-    }
+        "source.fixAll.eslint": "never",
+        "source.fixAll.stylelint": "never",
+    },
+    "stylelint.validate": [
+    "css",
+    "scss",
+    "sass",
+    "less"
+  ]
 }

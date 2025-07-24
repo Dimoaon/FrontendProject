@@ -1,3 +1,6 @@
 {
-    "language": "Русский"
+  "language": "Русский",
+  "notFoundPage": {
+    "page not found": ""
+  }
 }

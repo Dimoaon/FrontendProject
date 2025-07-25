@@ -44,10 +44,23 @@ module.exports = {
         'linebreak-style': 'off',
         semi: ['error', 'always'],
         'jsx-quotes': ['error', 'prefer-single'],
-        'i18next/no-literal-string': ['error', { markupOnly: true }],
+        'i18next/no-literal-string': [
+            'error',
+            {
+                markupOnly: true, ignoreAttributes: ['data-testid'],
+            },
+        ],
         'max-len': ['error', { ignoreComments: true, code: 100 }],
     },
     globals: {
         __IS_DEV__: true,
     },
+    ovverrides: [
+        {
+            files: ['**/src/**/*.test.{ts, tsx}'],
+            rules: {
+                'i18next/no-literal-string': 'off',
+            }
+        }
+    ]
 };

@@ -2,8 +2,7 @@ import { classNames } from 'shared/lib/classNames/classNames';
 
 describe('classNames', () => {
     test('with only first param', () => {
-        const expected = 'someClass';
-        expect(classNames('someClass')).toBe(expected);
+        expect(classNames('someClass')).toBe('someClass');
     });
 
     test('with additional class', () => {
@@ -30,7 +29,7 @@ describe('classNames', () => {
         )).toBe(expected);
     });
 
-    test('with mods underfind', () => {
+    test('with mods undefined', () => {
         const expected = 'someClass class1 class2 hovered';
         expect(classNames(
             'someClass',

@@ -1,4 +1,9 @@
 {
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
+    " Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam": {
+      "": ""
+    }
+  },
   "about": "about",
   "about page": "about page",
   "language": "",
@@ -8,5 +13,6 @@
   "reload page": "reload page",
   "throw error": "",
   "toggle": "",
-  "unexpected error": "unexpected error"
+  "unexpected error": "unexpected error",
+  "Войти": "Войти"
 }

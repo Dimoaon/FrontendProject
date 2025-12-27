@@ -1,0 +1,21 @@
+{
+    "Профиль": "Profil",
+    "Редактировать": "Edytuj",
+    "Ваша фамилия": "Twoje nazwisko",
+    "Ваше имя": "Twoje imię",
+    "Произошла ошибка при загрузке профиля": "Wystąpił błąd podczas ładowania profilu",
+    "Попробуйте обновить страницу": "Spróbuj odświeżyć stronę",
+    "Отменить": "Anuluj",
+    "Сохранить": "Zapisz",
+    "Город": "Miasto",
+    "Ваш возраст": "Twój wiek",
+    "Имя пользователя": "Nazwa użytkownika",
+    "Введите имя пользователя": "Wprowadź nazwę użytkownika",
+    "Введите ссылку на аватар": "Wprowadź link do awatara",
+    "Серверная ошибка при сохранении": "Błąd serwera podczas zapisywania",
+    "Некорректный регион": "Nieprawidłowy region",
+    "Имя и фамилия обязательны": "Imię i nazwisko są wymagane",
+    "Данные не указаны": "Dane nie są określone",
+    "Некорректный возраст": "Nieprawidłowy wiek",
+    "Профиль не найден": "Profil nie znaleziony"
+}
